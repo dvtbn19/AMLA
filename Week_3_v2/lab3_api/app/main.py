@@ -4,7 +4,7 @@ from joblib import load
 import pandas as pd
 
 app = FastAPI()
-sgd_pipe = load("models/sgd_pipe.joblib")
+sgd_pipe = load("models/sgd_pipeline.joblib")
 
 @app.get("/")
 def read_root():
