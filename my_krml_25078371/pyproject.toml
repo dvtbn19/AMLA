@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "my_krml_25078371"
-version = "2025.0.1.4"
+version = "2025.0.1.11"
 description = "1"
 authors = ["Doan Thang"]
 license = "MIT"

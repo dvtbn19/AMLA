@@ -1,0 +1,19 @@
+[project]
+name = "adv-mla-lab-4"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "thang doan"}
+]
+readme = "README.md"
+requires-python = "3.11.4"
+dependencies = [
+    "jupyterlab (==4.2.3)",
+    "pandas (==2.2.2)",
+    "scikit-learn (==1.5.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
